@@ -10,7 +10,6 @@ def main():
     procedures[procedure](input_file, output_file)
 
 def read_args():
-    # This function remains unchanged.
     if len(sys.argv) != 4:
         print("python3 cxz.py [c | d] [input file] [output file]")
         sys.exit(1)
